@@ -1,0 +1,16 @@
+{
+  "name": "handlebar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords":{
+    "nodejs handlebars"
+  },
+  "author": "Praveen",
+  "dependencies": {
+    "handlebars": "^4.0.11"
+  }
+}

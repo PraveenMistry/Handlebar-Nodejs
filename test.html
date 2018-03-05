@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Handlebars Test</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="handlebars-v4.0.11.js"></script>
+</head>
+<body>
+
+	<h1>Handlebars JS Example</h1>
+	<script id="body-template" type="text/x-handlebars-template"> <table>
+		 <div class="row">
+		 	<div class="">
+		 		<h1>Slug</h1>
+		 		<p>{{slug_name}}</p>
+		 	</div>
+		 	{{#fields}}
+		    <div class="">
+		        <h2>Engage: </h2>
+				<p>{{engage}}</p>
+				<h3>Partner With TEAM: </h3>
+				<p>{{partner_with_team}}</p>
+		    </div>
+	      	{{/fields}}
+	    </div>
+	</script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
